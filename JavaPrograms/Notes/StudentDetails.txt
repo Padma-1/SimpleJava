@@ -1,0 +1,25 @@
+import java.util.*;
+public class StudentDetails
+{
+     public static void main(String []args)
+     {
+        String name,branch;
+        int roll,yos,phone;
+        Scanner sc=new scanner(System.in);
+        int n = sc.nextInt();
+        for (i=0;i<=n;i++)
+        {
+           System.out.print("enter name:"); 
+           name=sc.nextInt();
+           System.out.print("enter roll:");
+           roll=sc.nextInt();
+           System.out.print("enter branch:");
+           branch=sc.nextInt();
+           System.out.print("enter YOS:");
+           YOS=sc.nextInt();
+           System.out.println("enter phoneNo:");
+           int phone=sc.nextInt();
+        }
+        System.out.println("Hello World");
+     }
+}
